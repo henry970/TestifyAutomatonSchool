@@ -9,4 +9,5 @@ jobs:
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
      - run: python main.py
      - run: node jsCodingTask\challenge1.js
+     - run: node jsCodingTask\challenge2.js
 
