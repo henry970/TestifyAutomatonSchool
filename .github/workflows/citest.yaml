@@ -18,14 +18,14 @@ jobs:
      - run: node jsCodingTask\challenge8.js
      - run: node jsCodingTask\challenge9.js
      - run: node jsCodingTask\challenge10.js
-     - run: node jsTask\Task4.js
-     - run: node jsTask\Task5.js
-     - run: node jsTask\Task6.js
-     - run: node jsTask\Task7.js
-     - run: node jsTask\Task8.js
-     - run: node jsTask\Task9.js
-     - run: node jsTask\Task10.js
-     - run: node jsTask\Task11.js
-     - run: node jsTask\Task12.js
-     - run: node jsTask\Task13.js
-     - run: node jsTask\Task14.js
+     - run: node jsTask\task4.js
+     - run: node jsTask\task5.js
+     - run: node jsTask\task6.js
+     - run: node jsTask\task7.js
+     - run: node jsTask\task8.js
+     - run: node jsTask\task9.js
+     - run: node jsTask\task10.js
+     - run: node jsTask\task11.js
+     - run: node jsTask\task12.js
+     - run: node jsTask\task13.js
+     - run: node jsTask\task14.js
