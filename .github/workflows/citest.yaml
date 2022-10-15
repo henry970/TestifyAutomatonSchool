@@ -12,4 +12,5 @@ jobs:
      - run: node jsCodingTask\challenge2.js
      - run: node jsCodingTask\challenge3.js
      - run: node jsCodingTask\challenge4.js
+     - run: node jsCodingTask\challenge5.js
 
