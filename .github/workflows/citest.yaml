@@ -10,4 +10,5 @@ jobs:
      - run: python main.py
      - run: node jsCodingTask\challenge1.js
      - run: node jsCodingTask\challenge2.js
+     - run: node jsCodingTask\challenge3.js
 
