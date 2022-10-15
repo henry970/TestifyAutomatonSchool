@@ -8,5 +8,5 @@ jobs:
      - uses: actions/checkout@v2
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
      - run: python main.py
-     - run: node JsCodingTask/Challenge1.js
-     
+     - run: node.js JsCodingTask/Challenge1.js
+
