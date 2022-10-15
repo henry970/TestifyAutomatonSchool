@@ -18,7 +18,6 @@ jobs:
      - run: node jsCodingTask\challenge8.js
      - run: node jsCodingTask\challenge9.js
      - run: node jsCodingTask\challenge10.js
-     - run: node jsTask\task4.js
      - run: node jsTask\task5.js
      - run: node jsTask\task6.js
      - run: node jsTask\task7.js
