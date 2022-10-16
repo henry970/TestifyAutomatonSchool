@@ -35,4 +35,14 @@ jobs:
      - run: python pythonTask\task7.py
      - run: python pythonTask\task8.py
      - run: python pythonTask\task9.py
+     - run: python pythonTask\task10.py
+     - run: python pythonTask\task11.py
+     - run: python pythonTask\task12.py
+     - run: python pythonTask\task13.py
+     - run: python pythonTask\task14.py
+     - run: python pythonTask\task15.py
+     - run: python pythonTask\task16.py
+     - run: python pythonTask\task17.py
+     - run: python pythonTask\task18.py
+     - run: python pythonTask\task19.py
 
