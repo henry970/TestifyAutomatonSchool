@@ -26,4 +26,3 @@ jobs:
      - run: node jsTask\task11.js
      - run: node jsTask\task12.js
      - run: node jsTask\task13.js
-     - run: node jsTask\task14.js
