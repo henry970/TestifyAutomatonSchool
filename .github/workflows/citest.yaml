@@ -27,3 +27,12 @@ jobs:
      - run: node jsTask\task12.js
      - run: node jsTask\task13.js
      - run: python pythonTask\task1.py
+     - run: python pythonTask\task2.py
+     - run: python pythonTask\task3.py
+     - run: python pythonTask\task4.py
+     - run: python pythonTask\task5.py
+     - run: python pythonTask\task6.py
+     - run: python pythonTask\task7.py
+     - run: python pythonTask\task8.py
+     - run: python pythonTask\task9.py
+
