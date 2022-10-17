@@ -11,5 +11,5 @@ class Utilities:
 
 
 Utilities.add = (Utilities.add)
-print("1 + 1 =", Utilities.add(200, 300))
+print("200 + 300 =", Utilities.add(200, 300))
 
