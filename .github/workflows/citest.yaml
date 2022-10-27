@@ -1,0 +1,54 @@
+
+name: Git Actions Demo
+on: [push]
+jobs:
+ Explore-GitHub-Actions:
+   runs-on: windows-latest
+   steps:
+     - uses: actions/checkout@v2
+     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
+     - run: python main.py
+     - run: node jsCodingTask\challenge1.js
+     - run: node jsCodingTask\challenge2.js
+     - run: node jsCodingTask\challenge3.js
+     - run: node jsCodingTask\challenge4.js
+     - run: node jsCodingTask\challenge5.js
+     - run: node jsCodingTask\challenge6.js
+     - run: node jsCodingTask\challenge7.js
+     - run: node jsCodingTask\challenge8.js
+     - run: node jsCodingTask\challenge9.js
+     - run: node jsCodingTask\challenge10.js
+     - run: node jsTask\task5.js
+     - run: node jsTask\task6.js
+     - run: node jsTask\task7.js
+     - run: node jsTask\task8.js
+     - run: node jsTask\task9.js
+     - run: node jsTask\task11.js
+     - run: node jsTask\task12.js
+     - run: node jsTask\task13.js
+     - run: node jsTask\task14.js
+     - run: python pythonTask\task1.py
+     - run: python pythonTask\task2.py
+     - run: python pythonTask\task3.py
+     - run: python pythonTask\task4.py
+     - run: python pythonTask\task5.py
+     - run: python pythonTask\task6.py
+     - run: python pythonTask\task7.py
+     - run: python pythonTask\task8.py
+     - run: python pythonTask\task9.py
+     - run: python pythonTask\task10.py
+     - run: python pythonTask\task11.py
+     - run: python pythonTask\task12.py
+     - run: python pythonTask\task13.py
+     - run: python pythonTask\task14.py
+     - run: python pythonTask\task15.py
+     - run: python pythonTask\task16.py
+     - run: python pythonTask\task17.py
+     - run: python pythonTask\task18.py
+     - run: python pythonTask\task19.py
+     - run: python pythonTask\task20.py
+     - run: python pythonTask\task21.py
+     - run: python pythonTask\task22.py
+     - run: python pythonTask\task23.py
+     - run: python pythonTask\task24.py
+     - run: python pythonTask\task25.py
