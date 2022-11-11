@@ -1,13 +1,13 @@
 Question 1
-What are the main features of Python? 
+What are the main features of Python?
  (1) Python is an open source an run by the python interpreter which comes when we install
  (2) python is desgined to be easy to learn and focus on readability
  (3) Python is a battery-included language which means it provides libraries can be used in your development
- (4) Python has an extensive standard library available for anyone to use. This means that programmers don’t have to write their code for 
+ (4) Python has an extensive standard library available for anyone to use. This means that programmers don’t have to write their code for
      every single thing unlike other programming languages
  (5) Python is portable in the sense that the same code can be used on different machines. Suppose you write a Python code on a Mac
  (6) A programming language is object-oriented if it focuses design around data and objects, rather than functions and logic. On the contrary,
-     a programming language is procedure-oriented if it focuses more on functions (code that can be reused). 
+     a programming language is procedure-oriented if it focuses more on functions (code that can be reused).
  (7) Support for GUI
  (8) High-level Language
 
@@ -15,27 +15,27 @@ QUESTION 2
 What is the difference between a list and a dictionary?
   (1) A list is a collection of ordered data.
   (2) A dictionary is an unordered collection of data that stores data in key-value pairs.
-  
+
 QUESTION 3
 In your word, explain the keyword pass
    (1) A “pass” keyword refers to a null operation(“do nothing)
-   
+
 QUESTION 4
 What is an iterator in Python?
   (1) An iterator is an object that contains a countable number of values or
-      An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. Technically, in Python, 
+      An iterator is an object that can be iterated upon, meaning that you can traverse through all the values. Technically, in Python,
       an iterator is an object which implements the iterator protocol, which consist of the methods __iter__() and __next__() .
-      
+
 QUESTION 5
 What is unit testing?
   (1) Unit Testing is the process of software engineering in which most of the smallest and most testable part of an appliction is individually tested to ensure
      it satisfies their use case.
- 
+
 QUESTION 6
 Of the available unit test framework in Python, which is yourfavorite and why
   (1) pytest
   (2) unittest
-  
+
  QUESTION 7
  Name the types of arguments in Python?
   (1) Default arguments
@@ -43,50 +43,41 @@ Of the available unit test framework in Python, which is yourfavorite and why
   (3) Positional arguments
   (4) Arbitrary positional arguments
   (5) Arbitrary keyword arguments
-   
+
 QUESTION 8
 Explain what functions are.
   (1) a function is a group of related statements that performs a specific task. Functions help break our program into smaller and modular chunks.
-  
-  
+
+
 QUESTION 9
 How do you create a class in Python?
   (1) Create a Class. To create a class, use the keyword class :
-  
+
 
 QUESTION 10
 Explain what polymorphism and Inheritance are in Python OOP
   (1) Polymorphism in Python
-A child class inherits all the methods from the parent class. However, in some situations, the method inherited from the parent class doesn’t 
+A child class inherits all the methods from the parent class. However, in some situations, the method inherited from the parent class doesn’t
 quite fit into the child class. In such cases, you will have to re-implement method in the child class.
-There are different methods to use polymorphism in Python. You can use different function, class methods or objects to define polymorphism. 
+There are different methods to use polymorphism in Python. You can use different function, class methods or objects to define polymorphism.
 Polymorphism is a very important concept in programming. It refers to the use of a single type entity (method, operator or object) to represent different types in different scenarios.
 
-   
-   (2) There are different methods to use polymorphism in Python. You can use different function, class methods or objects to define polymorphism. So, 
+
+   (2) There are different methods to use polymorphism in Python. You can use different function, class methods or objects to define polymorphism. So,
    let’s move ahead and have a look at each of these methods in detail.
-   
+
    Example
 
 Create a class named Person, with firstname and lastname properties, and a printname method:
 class Person:
-  def __init__(self, fname, lname):
-    self.firstname = fname
-    self.lastname = lname
+  def __init__(self, firstname, lastname):
+    self.firstname = firstname
+    self.lastname = lastname
 
   def printname(self):
     print(self.firstname, self.lastname)
 
 #Use the Person class to create an object, and then execute the printname method:
 
-x = Person("John", "Doe")
-x.printname() 
-  
-  
-  
-  
-  
-  
-  
-  
-  
+x = Person("Henry", "Okolie")
+x.printname()

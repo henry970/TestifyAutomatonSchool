@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-def print_element_fields(element):
+def print_element_text(element):
     print("Text:", element.text)
     print("Size:", element.size)
     print("Tag name:", element.tag_name)
@@ -37,7 +37,7 @@ def main():
     testify = driver.find_element(By.XPATH, '//*[@id="__next"]/section/div/div[2]/div[2]')
     print_element_properties(testify)
     print_element_attribute(testify_link)
-    print_element_fields(element)
+    print_element_text(element)
 
     time.sleep(2)
 
