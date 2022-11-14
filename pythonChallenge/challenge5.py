@@ -8,7 +8,7 @@ def is_a_palindrome(string):
 
 
 
-is_a_palindrome("meme")
+is_a_palindrome("memes")
 is_a_palindrome("madam")
 is_a_palindrome("raddar")
 is_a_palindrome("Daified")

@@ -8,6 +8,6 @@ def simple_interest(p, t, r):
      print(SI)
 
 
-simple_interest(10, 6, 2)
+simple_interest(10, 6, 4)
 
 

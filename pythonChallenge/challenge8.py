@@ -11,4 +11,4 @@ def print_odd(num):
 
 
 print_odd([1, 2, 3, 4, 5])
-print_odd([34, 2, 9, 91, 19, 401, 0])
+print_odd([34, 2, 9, 91, 19, 401])

@@ -1,4 +1,4 @@
-# Create  a  function  that  calculates  the  power  of  a  number.
+ # Create  a  function  that  calculates  the  power  of  a  number.
 # Then  write a unit test to check the correctness of the function
 
 
@@ -10,4 +10,4 @@ def exponent(num, expo):
 
 
 print(pow(2, 5))
-print(exponent(7, 5))
+print(exponent(7, 6))
