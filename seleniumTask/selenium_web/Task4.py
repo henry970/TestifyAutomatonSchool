@@ -15,7 +15,7 @@ def main():
     driver.get("https://web.facebook.com/?_rdc=1&_rdr")
 
     send_keys_to_element(driver.find_element(By.NAME, "email"), "Henryokolie615@gmail.com")
-    send_keys_to_element(driver.find_element(By.NAME, "pass"), "Adaobi93/")
+    send_keys_to_element(driver.find_element(By.NAME, "pass"), "*******")
 
     login = driver.find_element(By.NAME, "login").click()
     print("login:", login)
