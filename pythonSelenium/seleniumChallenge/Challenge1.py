@@ -19,8 +19,8 @@ def main():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://www.facebook.com/")
 
-    send_keys_to_facebook(driver.find_element(By.NAME, "email"), "*******************")
-    send_keys_to_facebook(driver.find_element(By.NAME, "pass"), "********")
+    send_keys_to_facebook(driver.find_element(By.NAME, "email"), "*************")
+    send_keys_to_facebook(driver.find_element(By.NAME, "pass"), "......")
 
     login = driver.find_element(By.NAME, "login").click()
     print("login:", login)
