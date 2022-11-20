@@ -17,9 +17,14 @@ def send_keys_to_check_weather(element, *keys):
 def main():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://weather.com/")
+ 
+    # current temperature
+    current_temperature = driver.find_element(By.XPATH, '//*[@id="WxuCurrentConditions-main-b3094163-ef75-4558-8d9a-e35e6b9b1034"]/div/section/div/div[2]/div[1]/div[1]/span')
+    print("current temperature:", current_temperature.text)
+
 
     # Morning Temperature
-    morning_temperature = driver.find_element(By.XPATH, "//span[contains(text(),'29°')]")
+    morning_temperature = driver.find_element(By.XPATH, '//*[@id="WxuTodayWeatherCard-main-486ce56c-74e0-4152-bd76-7aea8e98520a"]/section/div/ul/li[1]/a/div[1]/span')
     print("Morning Temperature:", morning_temperature.text)
 
     # Afternoon Temperature
@@ -27,7 +32,7 @@ def main():
     print("Afternoon Temperature:", afternoon_temperature.text)
 
     # Evening Temperature
-    evening_temperature = driver.find_element(By.XPATH, "//span[contains(text(),'25°')]")
+    evening_temperature = driver.find_element(By.XPATH, '//*[@id="WxuTodayWeatherCard-main-486ce56c-74e0-4152-bd76-7aea8e98520a"]/section/div/ul/li[3]/a/div[1]/span')
     print("Evening Temperature:", evening_temperature.text)
 
     # Night Temperature
